@@ -1,0 +1,11 @@
+Digite um numero para x
+Digite um numero para z
+atribui valor de x para a variavel resposta
+atribui valor de x para a variavel aux01
+atribui valor de z para a variavel aux02
+enquanto z for maior que 1
+	multiplica resposta por x
+	diminui 1 de z
+exibe resposta com aux01 aux02 e resposta
+
+

@@ -1,0 +1,5 @@
+declara variaveis n e aux e atribui 1 a resposta
+digite um numero para n
+atribui aux com o valor de n
+cria um laço que vai até a variavel n seja maior ou igual a 1 e subtrai 1 a variavel n
+imprima as variaveis aux e resposta

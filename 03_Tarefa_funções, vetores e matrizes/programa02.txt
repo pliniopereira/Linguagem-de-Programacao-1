@@ -1,0 +1,9 @@
+stdlib.h = Diversas operações, incluindo conversão, geração de números pseudo-aleatórios, alocação de memória, controle de processo, sinais, busca e ordenação.
+
+stdio.h = Manipulação de entrada e saída.
+
+math.h = Funções matemáticas comuns em computação.
+
+string.h = Tratamento de cadeia de caracteres("Strings").
+
+limits.h = Constantes de propriedades específicas de implementação da biblioteca de tipos inteiros, como a faixa de números que pode ser representada (_MIN, _MAX).

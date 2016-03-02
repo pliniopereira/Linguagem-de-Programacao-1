@@ -1,0 +1,15 @@
+declara as variaveis n, x e atribui 0 para soma e caux
+exibe mensagem numero:
+digite o valor para variavel n
+cria-se um laço com valor da variavel x em 1 e tem como limite a variavel caux vá até que ela continue sendo menor que x e soma 1 a x cada vez que o laço é repetido  
+elimina todos os valores pares exceto 2 e elimina 1
+senão aplica o Crivo de Eratóstenes
+testa o numero x se ele é divisivel apenas por por 1 e por ele mesmo e vai testando até o seu quadrado
+caso seja primo some a variavel soma
+caso declare que ele seja primo imprime o valor de x +
+até o ultimo valor primo ai se imprime x =
+imprime variavel soma
+
+
+
+

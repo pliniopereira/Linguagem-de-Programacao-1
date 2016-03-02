@@ -1,0 +1,6 @@
+declara variaveis n, c e atribui 0 a soma
+imprime Numero:
+digite um numero para n
+cria um laço com c com valor 1 que vai até a variavel c tenha o valor de menor ou igual n e soma 1 a variavel c
+Se a divisao de n por c for igual a 0 some 1 a variavel a soma
+imprima as variaveis n e soma

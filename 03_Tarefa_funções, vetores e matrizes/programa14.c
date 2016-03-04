@@ -18,11 +18,12 @@ int main() {
 
     printf("\nExistem %d vogais dentro da frase!", cont);
 
-    return 0;
-
     system("pause");
 
     getch();
+
+    return 0;
+
 }
 
 

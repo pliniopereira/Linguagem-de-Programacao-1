@@ -1,0 +1,192 @@
+Faça os exercícios descritos, usando linguagem de programação C. Nomeie cada um dos programas como programa1, programa 2, etc. Em seguida, poste um arquivo chamado seu_nome.zip, contendo os códigos, isto é, programa1.c, programa 2.c..., bem como arquivos de texto. Importante: Não esqueça de acrescentar ao final de cada código da função main uma das instruções:
+
+system("pause");
+
+getch();
+
+ 
+
+1) Escreva uma função que, dado um número real passado como parâmetro, separa a parte inteira e a parte fracionária deste número. Escreva um programa que execute esta função.
+
+ 
+
+2) Pesquise 5 bibliotecas para linguagem de programação C, descrevendo as funções que cada um contém (veja apostila Linguagem C Descomplicada presente neste ambiente e sites em geral).
+
+ 
+
+3) Faça um programa que apresente o menu de opções a seguir e permita ao usuário escolher a opção desejada, mostrando o seu resultado final. Verifique a possibilidade de opção inválida ou inexistente. Dica: use switch case.
+
+Menu de Opções
+A- Imposto
+B- Novo salário
+C- Classificação
+
+Atenção: Cada opção deve ser implementada em uma função diferente.
+
+A opção A deverá receber o salário de um funcionário, calcular e apresentar o valor do imposto usando a seguinte regra:
+
+SALÁRIOS PERCENTUAL DO IMPOSTO
+Menor que R$ 500,00 5%
+De R$ 500,00 a R$ 850,00 10%
+Acima de R$ 850,00 15%
+
+A opção B deverá receber o salário de um funcionário, calcular e mostrar o valor do novo salário, usando as regras a seguir:
+
+SALÁRIO AUMENTO
+Maiores que R$ 1500,00 R$ 25,00
+De R$ 750,00 a R$ 1500,00 R$ 50,00
+De R$ 450,00 a R$ 750,00 R$ 75,00
+Menores que R$ 450,00 R$ 100,00
+
+A opção C receberá o salário de um funcionário e mostrará a sua classificação usando a relação a seguir:
+
+SALÁRIO CLASSIFICAÇÃO
+Até R$ 700,00 Mal remunerado
+Maiores que R$ 700,00 Bem remunerado
+
+ 
+
+4) Faça um programa que leia, via teclado, um vetor de números inteiros com 15 posições, calcule e mostre:
+
+a) O maior elemento do vetor e em que posição esse elemento está;
+
+b) O menor elemento da lista e em que posição esse elemento está.
+5) Faça um programa que simule um calendário permanente, isto é, o usuário digitará uma data e o programa retornará o dia da semana correspondente àquela data digitada.
+
+ 
+
+6) Adaptado da Maratona Interna de Programação 2014 Fatec - SJC.
+
+Exploração de planetas. Em 2142, o capitão McNamara viaja sempre com  uma equipe de cinco naves. Ao se aproximar do planeta a ser explorado, é preciso que haja uma lista ordenada com as distâncias de cada nave em relação ao planeta, de forma a iniciar os procedimentos de aterrissagem. O capitão pede sua ajuda para implementar um programa que tenha por entrada as coordenadas do planeta a ser explorado e as coordenadas de cada uma das cinco naves. Como saída, o programa fornece uma lista ordenada por distância, contendo os índices de cada nave. Exemplo:
+
+Entrada:
+
+coordenadas do planeta (xp, yp, zp) = (0,4,-1)
+
+coordenadas da nave 0 (x[0],y[0],z[0]) = (5,4,-1)
+
+coordenadas da nave 1 (x[1],y[1],z[1]) =...
+
+....
+
+coordenadas da nave 4 (x[4],y[4],z[4]) =(1,4,-1)
+
+Saída:
+
+Sequência das naves: 4,0,1,2,3
+
+Observação: crie uma biblioteca que contenha funções para cálculo de:
+
+a) distância entre dois pontos com duas dimensões
+
+b) distância entre dois pontos com três dimensões
+
+c) distância entre dois pontos com uma dimensão
+
+ 
+
+7) Um veículo tem um certo consumo de combustível (medidos em km / litro) e uma certa quantidade de combustível no tanque. O consumo é especificado em uma constante e o nível de combustível inicial é 0. Implemente um programa contenha as seguintes funções:
+
+a) void andar( ) que simula o ato de dirigir o veículo por uma certa distância, reduzindo o nível de combustível no tanque de gasolina;
+
+b) float obterGasolina( ), que retorna o nível atual de combustível;
+
+c) adicionarGasolina(float litros), para abastecer o tanque.
+
+O programa deve apresentar um menu de opções que permita ao usuário escolher a opção desejada.
+
+ 
+
+8) Desenvolver um programa em C que contenha funções para realizar as operações de adição, subtração e multiplicação de dois números inteiros, lidos via teclado. A função main fornecerá um menu para que o usuário escolha a operação desejada.
+
+ 
+
+9) Faça um programa que contenha as seguintes características
+
+a) variáveis -> char nome[20], int idade, float peso e float altura
+
+b) funções -> void envelhecer(int anos), void engordar(float kg), void emagrecer(float kg), void crescer().
+
+Obs: Por padrão, a cada ano que a pessoa envelhece, sendo a idade dela menor que 21 anos, ela deve crescer 0,5 cm.
+
+A função main fornecerá um menu para que o usuário escolha a opção desejada.
+
+ 
+
+10) Faça um programa, descritor de uma bomba de combustível, que contenha as seguintes características
+
+a) variáveis -> char tipoCombustivel, float valorLitro, float quantidadeCombustivel
+
+b) funções ->
+
+b1. void abastecerPorValor(float valor) – dado o valor a ser abastecido, mostra a quantidade de litros de combustível que foi colocada no veículo;
+
+b2. void abastecerPorLitro(float litros) – dada a quantidade em litros de combustível, mostra o valor a ser pago pelo cliente.
+
+b3. void alterarValor( loat valor) – altera o valor do litro do combustível.
+
+b4. void alterarCombustivel(char c) – altera o tipo do combustível.
+
+b5. void alterarQuantidadeCombustivel( ) – altera a quantidade de combustível restante na bomba.
+
+OBS: Sempre que acontecer um abastecimento é necessário atualizar a quantidade de combustível total na bomba.
+
+A função main fornecerá um menu para que o usuário escolha a opção desejada.
+
+ 
+
+11) Faça um programa que leia, via teclado, duas matrizes de números inteiros do tipo 4 x 4. O programa deverá apresentar um menu para as operações de soma e subtração das duas matrizes. Após o usuário escolher a operação a ser feita, o programa mostrará a matriz resultante.
+
+ 
+
+12)Elabore um programa que leia cinco nomes de pessoas via teclado.  O programa deve verificar se somente caracteres alfabéticos foram digitados. O programa deve conter funções para:
+
+a) imprimir os nomes em ordem alfabética;
+
+b) imprimir os nomes em letras maiúsculas;
+
+c) informar apenas um nome, conforme índice requerido pelo usuário.
+
+13) Faça um programa para corrigir uma prova com 10 questões de múltipla escolha (a, b, c, d ou e), em uma turma com 3 alunos. Cada questão vale 1 ponto. Leia o gabarito, e para cada aluno leia sua matrícula (número inteiro) e suas respostas. Calcule e escreva, para cada aluno, sua matrícula, suas respostas, e sua nota. O percentual de aprovação, assumindo média 7.0.
+
+ 
+
+14) Faça um programa que receba uma palavra e calcule quantas vogais (a, e, i, o, u) possui essa palavra. Entre com um caractere (vogal ou consoante) e substitua todas as vogais da palavra dada por esse caractere.
+
+ 
+
+15) Faça um programa que receba uma frase e imprima-a de maneira invertida, trocando as letras A, se existir, por *.
+
+ 
+
+16) Faça um programa que, dada uma string, diga se ela e um palíndromo ou não. Lembrando que um palíndromo é uma palavra que tenha a propriedade de poder ser lida tanto da direita para a esquerda como da esquerda para a direita.
+
+Exemplos:
+
+ovo
+
+arara
+
+Anotaram a data da maratona
+
+ 
+
+17) Faça um programa que contenha um menu com as seguintes opções:
+
+(a) Ler uma string S1 (tamanho máximo 20 caracteres);
+
+(b) Imprimir o tamanho da string S1;
+
+(c) Comparar a string S1 com uma nova string S2 fornecida pelo usuário e imprimir o resultado da comparação;
+
+(d) Concatenar a string S1 com uma nova string S2 e imprimir na tela o resultado da concatenação;
+
+(e) Imprimir a string S1 de forma reversa;
+
+(f) Contar quantas vezes um dado caractere aparece na string S1. Esse caractere desse ser informado pelo usuário;
+
+(g) Substituir a primeira ocorrência do caractere C1 da string S1 pelo caractere C2. Os caracteres C1 e C2 serão lidos via teclado.
+
+ 
+
+18) Escreva uma função que compare e retorne verdadeiro, caso uma string seja anagrama da outra, e falso, caso contrário.

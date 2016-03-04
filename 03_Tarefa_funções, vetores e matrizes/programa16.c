@@ -26,4 +26,7 @@ int main(void) {
     system("pause");
 
     getch();
+
+    return 0;
+
 }

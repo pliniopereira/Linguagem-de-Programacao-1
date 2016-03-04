@@ -52,4 +52,6 @@ int main () {
     system("pause");
 
     getch();
+
+    return 0;
 }

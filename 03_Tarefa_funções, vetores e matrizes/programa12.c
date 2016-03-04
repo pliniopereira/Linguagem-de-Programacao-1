@@ -60,5 +60,11 @@ int main () {
     funcao_b();
     imprime_nomes();
     funcao_c();
-    system ("pause");
+    
+
+    system("pause");
+
+    getch();
+
+    return 0;
 }

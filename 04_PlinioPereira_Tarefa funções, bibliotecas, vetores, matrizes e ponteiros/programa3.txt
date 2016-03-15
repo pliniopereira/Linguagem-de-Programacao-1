@@ -1,0 +1,8 @@
+-----------------------
+1. int *p, x=5;
+2. *p *= 2**p;
+3. printf("%d", x);
+-----------------------
+Linha 1: Criação de um ponteiro para inteiros.
+Linha 2: (conteúdo de p)=(conteúdo de p)*2*((conteúdo de p));
+Linha 3: a saída deve ser 5, valor atribuído a x.

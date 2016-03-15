@@ -1,0 +1,61 @@
+Faça os exercícios descritos, usando linguagem de programação C. Nomeie cada um dos programas como programa1, programa 2, etc. Em seguida, poste um arquivo chamado seu_nome.zip,contendo os códigos, isto é, programa1.c, programa 2.c...
+
+Importante, não esqueça de acrescentar ao final de cada código da função main uma das instruções:
+
+system("pause");
+
+getch();
+
+1) Usando código do programa "tradutor" apresentado em sala de aula, faça o seguinte:
+
+a) Com suas respectivas traduções, inclua no dicionário as palavras region, shepherds, field,flock, night, angel, Lord, glory, great, fear, God, good, day, city, baby, earth, peace, highest, to, in e mais 10 palavras a sua escolha;
+
+b) Modifique o programa de forma que ele realize "tradução" do idioma inglês para português e mais dois idiomas, oferecendo ao usuário um menu para que ele escolha para qual idioma deseja a tradução.
+
+
+2- Usando vetores e funções, codifique um programa que indique a quantidade mínima de cédulas equivalente a uma dada quantia em dinheiro. Considere apenas valores inteiros e cédulas de 1, 5, 10, 50 e 100 reais.
+Exemplo:
+Quantia? R$ 209,00
+2 cédulas de R$100,00
+1 cédula de R$5,00
+4 cédulas de R$1,00.
+
+
+3 - Explique o significado de cada ocorrência de * no fragmento de código a seguir e indique qual a saída exibida na tela.
+int *p, x=5;
+*p *= 2**p;
+printf("%d", x);
+
+
+4 - Crie uma biblioteca em C que contenha as seguintes funções:
+a) a função strupr(s), que converte a string s em maiúscula.
+Por exemplo, se x armazena "Teste", após a chamada strupr(x), x estará
+armazenando "TESTE".
+b) a função strcat(s,t), que concatena a string t ao final da string s.
+Por exemplo, se x armazena "facil" e y armazena "idade", após a
+chamada strcat(x,y), x estará armazenando "facilidade".
+c) a função strpos(s,c), que devolve a posição da primeira ocorrência do caracter c na string s; ou −1, caso ele não ocorra em s.
+d) a função strdel(s,p), que remove o caracter existente na posição p da string s. Se a posição p não existe em s, nada é feito.
+e) a função strins(s,c,p), que insere o caracter s na posição p da string s. Se a posição p não existe em s, o caracter deve ser inserido no final da string.
+Em seguida, crie um programa que utilize essa biblioteca e teste  todas as funções dela.
+
+5- Observe o trecho do código a seguir.
+char *dia_semana(int n) {
+char *d[] = {
+"erro",
+"domingo",
+"segunda-feira",
+"terça-feira",
+"quarta-feira",
+"quinta-feira",
+"sexta-feira",
+"sábado"
+};
+return d[1<=n && n<=7 ? n : 0];
+}
+Responda:
+a) Explique o que será retornado pela função?
+b) Existem ponteiros neste trecho de código? Explique.
+
+6- Usando a função char *dia_semana(int n) apresentada no item anterior, implemente um programa que simule um calendário permanente, isto é, o usuário digitará uma data e o programa retornará o dia da semana correspondente àquela data digitada. Veja algoritmo no Moodle ou adapte o código que você fez para a lista anterior de exercícios.
+

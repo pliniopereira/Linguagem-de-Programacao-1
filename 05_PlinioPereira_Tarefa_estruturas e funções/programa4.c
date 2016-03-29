@@ -7,12 +7,31 @@ Use funções.*/
 
 #include <stdio.h>
 
+const double pi = 3.14;
+
+void area(double raio) {
+    double area;
+    area = pi * raio * raio;
+    printf("Area %.2lf\n", area);
+
+}
+void calcularcomprimento(double raio) {
+    double comprimento;
+    comprimento = 2 * pi * raio;
+    printf("Comprimento %.2lf\n", comprimento);
+
+}
+
 int main() {
 
+    double raio;
 
-    system("pause");
+    printf("Digite o raio: ");
+    scanf("%lf", &raio);
 
-    getch();
+    calcularcomprimento(raio);
+    area(raio);
+
 
     return 0;
 }

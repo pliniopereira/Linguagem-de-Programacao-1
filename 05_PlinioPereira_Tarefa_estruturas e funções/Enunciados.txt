@@ -1,0 +1,34 @@
+1- Observe o código a seguir:
+
+#include <stdio.h>
+
+typedef struct {
+
+    char nome[31];
+
+    int idade
+} PESSOA;
+
+main() {
+
+    PESSOA *p;
+
+    PESSOA x = {"Silvio", 32};
+
+    p = &x;
+    printf("\n%s,%d\n", (*p).nome, (p).idade );
+
+    system("pause");
+}
+
+a) Determine e corrija os erros presentes no código.
+
+b) É correta a instrução printf("\n%s\n",p->nome) ?
+
+2 – Use estrutura apresentada no exercício 1 e elabore um programa para cadastrar 10 pessoas.
+
+3- Crie um programa, utilizando um vetor de struct que guarda o nome, RG e ano de nascimento de,no máximo, 10 pessoas. O programa permite as seguintes funcionalidades, conforme escolha dousuário:a - Cadastrar uma pessoa;b - Calcular a idade de uma pessoa selecionada pelo usuário;c - Listar pessoas que nasceram a partir de um determinado ano;d - Listar pessoas que nasceram antes de um determinado ano;e- Encontrar o nome de uma pessoa com determinado RG;s- Sair.O programa deverá ser executado em loop até o usuário digitar a opção s. Implemente funçõespara as opções disponíveis
+
+4-Faça um programa que use uma estrutura para armazenar os atributos de uma circunferência C,isto é, raio e centro. O programa deve permitir as seguintes funcionalidades: a) calcularcomprimento da circunferência b) calcular a área do círculo envolto pela circunferência c) desenharcircunferência na tela. Use funções.
+
+5 - Usando o programa do WiFi apresentado em aula, melhore-o de forma que ele leia  três roteadores e calcule se algum deles permite que seu sinal seja captado por um dispositivo na posição (x,y)

@@ -1,0 +1,9 @@
+1-Faça o teste de mesa para cada um dos dois programas de ordenação de caracteres apresentados pela professora(correção da questão 2 da prova).
+
+2- Escreva um programa, em Linguagem de Programação C, que leia via teclado uma quantidade qualquer de letras digitadas pelo usuário e depois escreva-as em ordem alfabética. 
+
+O programa deve oferecer um menu para que  o usuário escolha por qual método deve ser feita a ordenação, mínimo de cinco opções. 
+
+Não esqueça da instrução system(“pause”) 
+
+Envie por este ambiente apenas os arquivos.c
